@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!--========================-->
+	<!--※※【網頁顯示資訊設定】※※-->	
+	<!--========================-->
+	
+	<!--使用編碼-->
+    <meta charset="UTF-8">
+    
+    <!--頁籤設定-->
+	<title>TheF2E Week5: Comic Viewer</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+    
+    <!--把螢幕解析度的寬度變成載具的寬度(RWD用)-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--網站描述與關鍵字設定-->
+	<meta name="description" content="此網站為書豪參加TheF2E的第五週作品">
+	<meta name="keywords" content="TheF2E, Week5, Comic Viewer">
+
+    <!--網站貼在Facebook上時顯示的資訊-->
+	<meta property="og:title" content="TheF2E Week5: Comic Viewer">
+	<meta property="og:description" content="此網站為書豪參加TheF2E的第五週作品">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:image" content="img/TheF2E.jpg">
+
+    <!--IE相容性設定-->
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!--載入Roboto Font字型-->	
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900i" rel="stylesheet">
+
+    <!--載入Font Awesome的Icons-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<!--載入CSS-->
+	<link rel="stylesheet" href="css/CSSReset.css">
+    <link rel="stylesheet" href="css/home.css">
+    
+    <!--載入jQuery-->	
+    <script src="js/jquery-2.2.3.min.js"></script>
+    
+	<!--載入javascript-->
+	<script src="js/home.js"></script>
+</head>
+
+<body>
+    <!--表頭-->
+    <div class="header">
+        <h1>Comicomic</h1>
+    </div>
+
+    <div class="container">
+        <!--內容前面的廣告-->
+        <img class="ad ad_Content_Front" src="img/ad-1.png">
+        
+        <!--漫畫封面-->
+        <div class="comicFrontCover"></div>
+        
+        <!--漫畫資料-->
+        <ul class="comicData">
+            <li class="comicData_ComicName"><h2>MY HEXSCHOOL</h2></li>
+            <li class="comicData_Genres">
+                <div class="dataTitle">Genres</div>
+                <div class="dataContent">Fusce/vehicula/dolor</div>
+                <div class="clearfix"></div>
+            </li>
+            <li class="comicData_Author">
+                <div class="dataTitle">Author</div>
+                <div class="dataContent">Namae Shiranai</div>
+                <div class="clearfix"></div>
+            </li>
+            <li class="comicData_Status">
+                <div class="dataTitle">Status</div>
+                <div class="dataContent">Ongoing</div>
+                <div class="clearfix"></div>
+            </li>
+            <li class="comicData_Rate">
+                <div class="dataTitle">Rate</div>
+                <div class="dataContent">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="clearfix"></div>
+            </li>
+            <li class="comicData_Summary">
+                <div class="dataTitle">Summary</div>
+                <p class="dataContent">If your banker breaks, you snap; if your apothecary by mistake sends you poison in your pills, you die. <br><br>Therefore, I say, I saw that this situation of mine was the precise situation of every mortal that has this Siamese connexion with a plurality of other mortals.</p>
+            </li>            
+        </ul>
+        <div class="clearfix"></div>
+
+        <!--內容後面的廣告-->
+        <img class="ad ad_Content_After" src="img/ad-2.png">
+    </div>
+    
+    <div class="footer">
+
+        <!--全部章節-->
+        <div class="chaptersListTitle">All Chapters</div>
+        <div class="clearfix"></div>
+        <ul class="chaptersList">
+            <!--第一章-->
+            <li class="chaptersList_ChapterItem">
+                <a href="reading.html">
+                    <div class="chaptersList_ChapterItem_ChapterTital">Chapter 1: The F2E Challenge Start!</div>
+                    <div class="clearfix"></div>
+                </a>
+            </li>
+            <!--第二章-->
+            <li class="chaptersList_ChapterItem">
+                <a href="reading.html">
+                    <div class="chaptersList_ChapterItem_ChapterTital">Chapter 2: Todo List is Going Crazy!</div>
+                    <div class="chaptersList_ChapterItem_NewMark">NEW</div>
+                    <div class="clearfix"></div>
+                </a>
+            </li>
+        </ul>
+
+        <!--表尾的廣告-->
+        <img class="ad ad_Footer_Last" src="img/ad-3.png">
+    </div>
+
+
+</body>
+
+</html>
