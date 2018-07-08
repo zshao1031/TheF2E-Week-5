@@ -1,0 +1,122 @@
+/****※ 暗色(Dark)介面 ※****/
+
+/***********************************/
+/*************【表頭】**************/
+/*********************************/
+.header
+{
+    width: 1024px;
+    margin: 0 auto;
+    background: #50FF44;
+}
+
+.header h1
+{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: italic;
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    line-height: 42px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+/***********************************/
+/*************【內容】**************/
+/*********************************/
+.container
+{
+    width: 1024px;
+    margin: 0 auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background: #000000;
+}
+
+/***********************************/
+
+.goHome
+{
+    display: block;
+    float: left;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #ffffff;  
+}
+
+/***********************************/
+
+.comicSelector i
+{
+    display: block;
+    float: left;
+    font-size: 8px;
+    line-height: 35px;
+    color: #ffffff;
+    padding-left: 8px;
+    padding-right: 7px;
+}
+
+/***********************************/
+
+.uiStyleSelector i
+{
+    display: block;
+    float: left;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+/***********************************/
+
+.uiStyleSelectorBox
+{
+    float: left;
+    width: 48px;
+    height: 24px;
+    border: 2px solid #ffffff;
+    background: #ffffff;
+    margin-left: 8px;
+    margin-right: 8px;
+    position: relative;
+}
+
+.uiStyleSelectorBox_SwitchCube
+{
+    width: 22px;
+    height: 20px;
+    background: #000000;
+    position: absolute;
+    float: right;
+}
+
+/***********************************/
+
+.btn
+{  
+    color: #ffffff;
+}
+
+.btn:hover
+{
+    background: #50FF44;
+    color: #000000;
+    cursor: pointer;
+}
+
+.btn.firstPageBtn , .btn.lastPageBtn
+{
+    color: rgba(255,255,255,0.20);
+}
+
+.btn.firstPageBtn , .btn.lastPageBtn:hover
+{
+    background: none;
+    color: rgba(255,255,255,0.20);
+    cursor: not-allowed;
+}

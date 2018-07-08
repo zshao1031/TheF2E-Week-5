@@ -2,38 +2,273 @@
 /***************通用***************/
 /*********************************/
 
-body{
-    background: #F2F2F2;
-}
 
+/***********************************/
 /*廣告*/
-.ad{
+
+.ad
+{
+    display: block;
+    margin: 0 auto;
     margin-top: 24px;
     margin-bottom: 24px;
 }
 
+
+.ad_BeforeControlBar{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
 /***********************************/
 /*************【表頭】**************/
 /*********************************/
-.header{
-    width: 1024px;
-    margin: 0 auto;
-    background: #000000;
-}
 
-h1{
-    font-family: 'Roboto';
-    font-weight: 900;
-    font-style: italic;
-    font-size: 36px;
-    color: #50FF44;
-    text-align: center;
-    line-height: 42px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
 
 /***********************************/
 /*************【內容】**************/
 /*********************************/
+
+.controlArea_controlBar
+{
+    width: 620px;
+    margin: 0 auto;
+}
+
+.comicSelector
+{
+    float: left;
+}
+
+/***********************************/
+
+#chapterSelector
+{
+    float: left;
+    width: 127px;
+    height: 35px;
+    border: 2px solid #000000;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    padding-left: 14px;
+}
+
+#chapterSelector option
+{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+}
+
+/***********************************/
+
+#pageSelector
+{
+    float: left;
+    width: 127px;
+    height: 35px;
+    border: 2px solid #000000;
+    margin-left: -2px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    padding-left: 14px;
+}
+
+#pageSelector option
+{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    padding: 7px 28px 9px 28px;
+}
+
+/***********************************/
+
+.uiStyleSelector
+{
+    float: right;
+}
+
+
+.uiStyleSelector
+{
+    padding-top: 6px;
+}
+
+/***********************************/
+
+.btn
+{
+    outline:none;
+    border: none;
+    background:none;
+    width: 80px;
+    height: 930px;
+    font-size: 70px;    
+    color: #000000;
+}
+
+.btn.firstPageBtn , .btn.lastPageBtn
+{
+    color: rgba(0,0,0,0.10);
+}
+
+.prevBtn
+{
+    float: left;
+    margin-left: 122px;
+}
+
+.nextBtn
+{
+    float: left;
+    
+}
+
+.showComicArea
+{
+    float: left;
+}
+
+/***********************************/
+/*************【表尾】**************/
+/*********************************/
+
+.footer
+{
+    width: 1024px;
+    margin: 0 auto;
+    background: #F2F2F2;
+    padding-top: 1px;
+}
+
+/***********************************/
+/****外框****/
+.comicControlor
+{
+    width: 620px;
+    height: 177px;
+    overflow-y:hidden;
+    overflow-x: auto;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+/****橫BAR****/
+
+.comicControlor_OptionsList
+{
+    width: 1420px;
+    height: 150px;
+    background: #F2F2F2;
+}
+
+/************/
+
+.changePageItem
+{
+    float: left; 
+    height: 162px;
+}
+
+.prevChapterItem
+{
+    float: left;
+    width: 60px;
+    height: 162px;
+}
+
+.nextChapterItem
+{
+    float: left;
+    width: 60px;
+    height: 162px;
+}
+
+.pageNum
+{
+    width: 100%;
+    height: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/************/
+
+.prevChapterBtn
+{
+    width: 50px;
+    height: 120px;
+    border: none;
+    background: #ffffff;
+    border: 1px solid #000000;
+}
+
+.nextChapterBtn
+{
+    width: 50px;
+    height: 120px;
+    border: none;
+    background: #ffffff;
+    margin-left: 10px;
+    border: 1px solid #000000;
+}
+
+/************/
+
+.changePageBtn
+{
+    width: 80px;
+    height: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #ffffff;
+    border: none;
+    position: relative;
+}
+
+.grayBoard
+{
+    background: rgba(0,0,0,0.10);
+    width: 80px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.selectTip
+{
+    width: 88px;
+    height: 128px;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    border: 4px solid #000000;
+}
+
+.selectTip::after
+{
+    content: " ";
+    width: 0px;
+    border-bottom: 10px solid #000000;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    margin-left: -10px;
+}
+
+.currentPage .grayBoard
+{
+    background: rgba(0,0,0,0.0);
+}
 
